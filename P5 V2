@@ -166,7 +166,8 @@ public class P5 {
         System.out.println("ID: "+id);
         System.out.println("Instrucciones totales:"+tamLocalidad);
         System.out.println("Dirección de memoria asignada:"+localidades);
-        System.out.println();
+System.out.println("Tamaño de páginas:"+tamLocalidad    /16);
+System.out.println();
     }
 
     public void colaProcess(int[] localidades,ArrayList<Integer> id, ArrayList<String> nombre){
